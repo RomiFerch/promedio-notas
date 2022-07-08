@@ -55,3 +55,37 @@ let nombreCompleto = nombre + " " + apellido //no van con parentesis ni comillas
  let nombreCompleto2 = `Hola mi nombre es ${nombre} y mi apellido es ${apellido}`
  console.log(nombreCompleto2)
 
+ //metodo para ver en que posicion esta incluido el caracter
+
+ let email = "Romi.fer@icloud.com"
+
+ console.log(email.indexOf("@"))
+    if (email.includes("@")&& email.includes(".cl")&& email.length >0 ){
+    }else{
+        // msj error
+    }
+
+    // function insertarNombre(nombre, apellido) {
+        
+    // }
+    function imprimirNumero(numero){
+        for (let i = 1; i <= numero; i++)
+        if (i%2===0){
+            //es par
+            console.log(`${i} es par`)
+                }
+        else{
+            //es impar
+            console.log(`${i} es impar`)
+        }
+    }
+    let numeroElegido = window.prompt("ingresar nuemero")
+
+    imprimirNumero(numeroElegido)
+
+
+
+
+    
+
+
